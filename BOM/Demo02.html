@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script type="text/javascript" src="Demo02.js" ></script>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>事件</title>
+</head>
+
+<body onload="ready()">
+<input type="button" onclick="check()" value="单击" /> <br />
+<input type="button" ondblclick="dbcheck()" value="双击" /><br />
+<input type="button" onmousemove="show()" onmouseout="hide()" value="时间" /><span id="time" ></span><br />
+
+<select onchange="change()">
+	<option>北京</option>
+   	<option>上海</option>
+    <option>广州</option>
+</select>	<br />
+
+<input type="button" onclick="locationUrl()" value="地址栏"  /> <br />
+<span onclick="showDown()" >下载电影</span> <br />
+<span onclick="showScreen()" id="scr">Screen(屏幕)对象</span>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Users>
+  <user id="001" name="jack" passward="123"/>
+  <user id="002" name="jo" passward="123"/>
+</Users>

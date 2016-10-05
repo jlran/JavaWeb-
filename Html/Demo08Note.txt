@@ -1,0 +1,11 @@
+表单表单，在网页中主要负责数据采集的功能，比如你可以采集访问者的名字和e－mail地址、调查表、留言簿等等。
+组成表单标签：  <form action=“” method=“” enctype=“”></form>表单域    ：
+	 <input type=“” name=“” /> 表单按钮：
+	 <input type="submit" name="..." value="...“/> 
+常见的表单域文本字段     <input type=“text” name=“” value=“”/> 
+密码字段、   隐藏字段 type = "password"
+单选按钮      type=radio 单选按钮必需要分组，分组的方法就是给标签name属性，name属性的值必须一样。
+多选按钮     type =checkbox，多选按钮的name属性必须一致。
+文件选择框	 type=“file” 
+ 下拉列表      <select ><option>文本输入域   <textarea> 根据cols定义它的列，rows定义文本框的行数
+按钮	type=“button”

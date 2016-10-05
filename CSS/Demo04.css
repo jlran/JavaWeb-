@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/*操作背景的属性 */
+	body{
+		/*background-color:#CCC;  设置背景颜色*/
+		background-image:url(../src/img/background.jpg);
+		background-repeat:no-repeat;  /*  设置背图片是否要重复 */
+		/*background-position:370px 100px; /* 设置背景图片的位置， 第一个参数是左上角的左边距， 第二个参数是左上角的上边距 */
+	}
+	
+	/* 操作文本的样式 */
+	
+	div{
+		color:#F00;
+		font-size:16px;
+		line-height:40px;
+		letter-spacing:10px;
+		text-align:center;
+		text-decoration:none;
+		text-transform:uppercase; 		
+	}
+	

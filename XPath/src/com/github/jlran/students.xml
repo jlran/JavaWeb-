@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Students>
+  <Student id="001" name="jack">
+    <name>张三</name>
+    <gender>男</gender>
+    <address>广州天河</address>
+  </Student>
+  <Student id="002">
+    <name>李四</name>
+    <gender>女</gender>
+    <address>广州天河</address>
+  </Student>
+</Students>

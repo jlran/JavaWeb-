@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+/*Div默认是没有边框的 border-style:dotted solid double ; /* 设置边框的样式  上 右 下 左*/
+
+div{
+	border-style:dotted solid double;
+	height:100px;
+	width:200px;
+	border-color:#00C;
+	border-bottom-color:#000;
+	border-left-color:#F00;
+}

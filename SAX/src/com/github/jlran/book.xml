@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<bookstore>
+	<book id="001">
+		<name>Java程序设计</name>
+		<auther>文志成</auther>
+		<date>2016/9/12</date>
+	</book>
+	<book id="002">
+		<name>Java web程序设计</name>
+		<date>2016/9/30</date>
+	</book>
+</bookstore>
